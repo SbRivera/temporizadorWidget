@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:padding="8dp">
+
+    <!-- Label del widget -->
+    <TextView
+        android:id="@+id/text_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Widget Temporizador"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentTop="true" />
+
+    <!-- Texto para el temporizador -->
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/text_label"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
